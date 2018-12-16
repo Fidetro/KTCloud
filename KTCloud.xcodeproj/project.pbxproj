@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A21888021C1136800C292F3 /* KVCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E8013218837ED00E24441 /* KVCloud.swift */; };
+		9A21888121C1136C00C292F3 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E80112188338700E24441 /* Define.swift */; };
 		9A8E7FA121880FF100E24441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E7FA021880FF100E24441 /* AppDelegate.swift */; };
 		9A8E7FA321880FF100E24441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E7FA221880FF100E24441 /* ViewController.swift */; };
 		9A8E7FA621880FF100E24441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E7FA421880FF100E24441 /* Main.storyboard */; };
@@ -18,6 +20,24 @@
 		9A8E80102188303F00E24441 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E800F2188303F00E24441 /* Cloud.swift */; };
 		9A8E80122188338700E24441 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E80112188338700E24441 /* Define.swift */; };
 		9A8E8014218837ED00E24441 /* KVCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E8013218837ED00E24441 /* KVCloud.swift */; };
+		9ACC46A921C15682007F45FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC46A821C15682007F45FE /* AppDelegate.swift */; };
+		9ACC46AB21C15682007F45FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC46AA21C15682007F45FE /* ViewController.swift */; };
+		9ACC46AD21C15683007F45FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC46AC21C15683007F45FE /* Assets.xcassets */; };
+		9ACC46B021C15683007F45FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC46AE21C15683007F45FE /* Main.storyboard */; };
+		9ACC46BC21C15683007F45FE /* KTPasteBoard_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC46BB21C15683007F45FE /* KTPasteBoard_MacTests.swift */; };
+		9ACC46C721C15683007F45FE /* KTPasteBoard_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC46C621C15683007F45FE /* KTPasteBoard_MacUITests.swift */; };
+		9ACC46D521C156A1007F45FE /* KeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC46D421C156A1007F45FE /* KeyboardObserver.m */; };
+		9ACC46D621C15A5D007F45FE /* KVCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E8013218837ED00E24441 /* KVCloud.swift */; };
+		9ACC46D721C15A6E007F45FE /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E80112188338700E24441 /* Define.swift */; };
+		9ACC46D821C1EE2A007F45FE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACC45A721C14597007F45FE /* CloudKit.framework */; };
+		9ACC46D921C1EFFD007F45FE /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E800F2188303F00E24441 /* Cloud.swift */; };
+		9ACC46DA21C1EFFF007F45FE /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E800F2188303F00E24441 /* Cloud.swift */; };
+		9AF059B221BFA3EF00344218 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0599A21BFA33300344218 /* NotificationCenter.framework */; };
+		9AF059B521BFA3EF00344218 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF059B421BFA3EF00344218 /* TodayViewController.swift */; };
+		9AF059B821BFA3EF00344218 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF059B621BFA3EF00344218 /* MainInterface.storyboard */; };
+		9AF059BC21BFA3EF00344218 /* KTPasteBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9AF059B121BFA3EF00344218 /* KTPasteBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9AF059C121BFA40100344218 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8E800D2188115D00E24441 /* CloudKit.framework */; };
+		9AF059C221BFA44400344218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E7FA721880FF200E24441 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +55,42 @@
 			remoteGlobalIDString = 9A8E7F9C21880FF100E24441;
 			remoteInfo = KTCloud;
 		};
+		9ACC46B821C15683007F45FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8E7F9521880FF100E24441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACC46A521C15681007F45FE;
+			remoteInfo = "KTPasteBoard-Mac";
+		};
+		9ACC46C321C15683007F45FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8E7F9521880FF100E24441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACC46A521C15681007F45FE;
+			remoteInfo = "KTPasteBoard-Mac";
+		};
+		9AF059BA21BFA3EF00344218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8E7F9521880FF100E24441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF059B021BFA3EF00344218;
+			remoteInfo = KTPasteBoard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AF059AA21BFA33300344218 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9AF059BC21BFA3EF00344218 /* KTPasteBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9A8E7F9D21880FF100E24441 /* KTCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +111,29 @@
 		9A8E800F2188303F00E24441 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		9A8E80112188338700E24441 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		9A8E8013218837ED00E24441 /* KVCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVCloud.swift; sourceTree = "<group>"; };
+		9ACC45A721C14597007F45FE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		9ACC46A621C15681007F45FE /* KTPasteBoard-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTPasteBoard-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACC46A821C15682007F45FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ACC46AA21C15682007F45FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ACC46AC21C15683007F45FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ACC46AF21C15683007F45FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ACC46B121C15683007F45FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACC46B221C15683007F45FE /* KTPasteBoard_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KTPasteBoard_Mac.entitlements; sourceTree = "<group>"; };
+		9ACC46B721C15683007F45FE /* KTPasteBoard-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KTPasteBoard-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACC46BB21C15683007F45FE /* KTPasteBoard_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPasteBoard_MacTests.swift; sourceTree = "<group>"; };
+		9ACC46BD21C15683007F45FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACC46C221C15683007F45FE /* KTPasteBoard-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KTPasteBoard-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACC46C621C15683007F45FE /* KTPasteBoard_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPasteBoard_MacUITests.swift; sourceTree = "<group>"; };
+		9ACC46C821C15683007F45FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACC46D221C156A0007F45FE /* KTPasteBoard-Mac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTPasteBoard-Mac-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ACC46D321C156A1007F45FE /* KeyboardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardObserver.h; sourceTree = "<group>"; };
+		9ACC46D421C156A1007F45FE /* KeyboardObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardObserver.m; sourceTree = "<group>"; };
+		9AF0599A21BFA33300344218 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		9AF059B121BFA3EF00344218 /* KTPasteBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KTPasteBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF059B421BFA3EF00344218 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		9AF059B721BFA3EF00344218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9AF059B921BFA3EF00344218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF059C021BFA3FE00344218 /* KTPasteBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KTPasteBoard.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +159,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9ACC46A321C15681007F45FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACC46D821C1EE2A007F45FE /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46B421C15683007F45FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46BF21C15683007F45FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF059AE21BFA3EF00344218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF059B221BFA3EF00344218 /* NotificationCenter.framework in Frameworks */,
+				9AF059C121BFA40100344218 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +199,10 @@
 				9A8E7F9F21880FF100E24441 /* KTCloud */,
 				9A8E7FB421880FF200E24441 /* KTCloudTests */,
 				9A8E7FBF21880FF200E24441 /* KTCloudUITests */,
+				9AF059B321BFA3EF00344218 /* KTPasteBoard */,
+				9ACC46A721C15682007F45FE /* KTPasteBoard-Mac */,
+				9ACC46BA21C15683007F45FE /* KTPasteBoard-MacTests */,
+				9ACC46C521C15683007F45FE /* KTPasteBoard-MacUITests */,
 				9A8E7F9E21880FF100E24441 /* Products */,
 				9A8E800C2188115C00E24441 /* Frameworks */,
 			);
@@ -101,6 +214,10 @@
 				9A8E7F9D21880FF100E24441 /* KTCloud.app */,
 				9A8E7FB121880FF200E24441 /* KTCloudTests.xctest */,
 				9A8E7FBC21880FF200E24441 /* KTCloudUITests.xctest */,
+				9AF059B121BFA3EF00344218 /* KTPasteBoard.appex */,
+				9ACC46A621C15681007F45FE /* KTPasteBoard-Mac.app */,
+				9ACC46B721C15683007F45FE /* KTPasteBoard-MacTests.xctest */,
+				9ACC46C221C15683007F45FE /* KTPasteBoard-MacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +260,56 @@
 		9A8E800C2188115C00E24441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ACC45A721C14597007F45FE /* CloudKit.framework */,
 				9A8E800D2188115D00E24441 /* CloudKit.framework */,
+				9AF0599A21BFA33300344218 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ACC46A721C15682007F45FE /* KTPasteBoard-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				9ACC46A821C15682007F45FE /* AppDelegate.swift */,
+				9ACC46AA21C15682007F45FE /* ViewController.swift */,
+				9ACC46D321C156A1007F45FE /* KeyboardObserver.h */,
+				9ACC46D421C156A1007F45FE /* KeyboardObserver.m */,
+				9ACC46AC21C15683007F45FE /* Assets.xcassets */,
+				9ACC46AE21C15683007F45FE /* Main.storyboard */,
+				9ACC46B121C15683007F45FE /* Info.plist */,
+				9ACC46B221C15683007F45FE /* KTPasteBoard_Mac.entitlements */,
+				9ACC46D221C156A0007F45FE /* KTPasteBoard-Mac-Bridging-Header.h */,
+			);
+			path = "KTPasteBoard-Mac";
+			sourceTree = "<group>";
+		};
+		9ACC46BA21C15683007F45FE /* KTPasteBoard-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACC46BB21C15683007F45FE /* KTPasteBoard_MacTests.swift */,
+				9ACC46BD21C15683007F45FE /* Info.plist */,
+			);
+			path = "KTPasteBoard-MacTests";
+			sourceTree = "<group>";
+		};
+		9ACC46C521C15683007F45FE /* KTPasteBoard-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACC46C621C15683007F45FE /* KTPasteBoard_MacUITests.swift */,
+				9ACC46C821C15683007F45FE /* Info.plist */,
+			);
+			path = "KTPasteBoard-MacUITests";
+			sourceTree = "<group>";
+		};
+		9AF059B321BFA3EF00344218 /* KTPasteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9AF059C021BFA3FE00344218 /* KTPasteBoard.entitlements */,
+				9AF059B421BFA3EF00344218 /* TodayViewController.swift */,
+				9AF059B621BFA3EF00344218 /* MainInterface.storyboard */,
+				9AF059B921BFA3EF00344218 /* Info.plist */,
+			);
+			path = KTPasteBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +322,12 @@
 				9A8E7F9921880FF100E24441 /* Sources */,
 				9A8E7F9A21880FF100E24441 /* Frameworks */,
 				9A8E7F9B21880FF100E24441 /* Resources */,
+				9AF059AA21BFA33300344218 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9AF059BB21BFA3EF00344218 /* PBXTargetDependency */,
 			);
 			name = KTCloud;
 			productName = KTCloud;
@@ -204,13 +370,83 @@
 			productReference = 9A8E7FBC21880FF200E24441 /* KTCloudUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9ACC46A521C15681007F45FE /* KTPasteBoard-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACC46C921C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-Mac" */;
+			buildPhases = (
+				9ACC46A221C15681007F45FE /* Sources */,
+				9ACC46A321C15681007F45FE /* Frameworks */,
+				9ACC46A421C15681007F45FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTPasteBoard-Mac";
+			productName = "KTPasteBoard-Mac";
+			productReference = 9ACC46A621C15681007F45FE /* KTPasteBoard-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ACC46B621C15683007F45FE /* KTPasteBoard-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACC46CC21C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-MacTests" */;
+			buildPhases = (
+				9ACC46B321C15683007F45FE /* Sources */,
+				9ACC46B421C15683007F45FE /* Frameworks */,
+				9ACC46B521C15683007F45FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACC46B921C15683007F45FE /* PBXTargetDependency */,
+			);
+			name = "KTPasteBoard-MacTests";
+			productName = "KTPasteBoard-MacTests";
+			productReference = 9ACC46B721C15683007F45FE /* KTPasteBoard-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ACC46C121C15683007F45FE /* KTPasteBoard-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACC46CF21C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-MacUITests" */;
+			buildPhases = (
+				9ACC46BE21C15683007F45FE /* Sources */,
+				9ACC46BF21C15683007F45FE /* Frameworks */,
+				9ACC46C021C15683007F45FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACC46C421C15683007F45FE /* PBXTargetDependency */,
+			);
+			name = "KTPasteBoard-MacUITests";
+			productName = "KTPasteBoard-MacUITests";
+			productReference = 9ACC46C221C15683007F45FE /* KTPasteBoard-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9AF059B021BFA3EF00344218 /* KTPasteBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF059BD21BFA3EF00344218 /* Build configuration list for PBXNativeTarget "KTPasteBoard" */;
+			buildPhases = (
+				9AF059AD21BFA3EF00344218 /* Sources */,
+				9AF059AE21BFA3EF00344218 /* Frameworks */,
+				9AF059AF21BFA3EF00344218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTPasteBoard;
+			productName = KTPasteBoard;
+			productReference = 9AF059B121BFA3EF00344218 /* KTPasteBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9A8E7F9521880FF100E24441 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = karim;
 				TargetAttributes = {
@@ -233,6 +469,37 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 9A8E7F9C21880FF100E24441;
 					};
+					9ACC46A521C15681007F45FE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9ACC46B621C15683007F45FE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9ACC46A521C15681007F45FE;
+					};
+					9ACC46C121C15683007F45FE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9ACC46A521C15681007F45FE;
+					};
+					9AF059B021BFA3EF00344218 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = 9A8E7F9821880FF100E24441 /* Build configuration list for PBXProject "KTCloud" */;
@@ -251,6 +518,10 @@
 				9A8E7F9C21880FF100E24441 /* KTCloud */,
 				9A8E7FB021880FF200E24441 /* KTCloudTests */,
 				9A8E7FBB21880FF200E24441 /* KTCloudUITests */,
+				9AF059B021BFA3EF00344218 /* KTPasteBoard */,
+				9ACC46A521C15681007F45FE /* KTPasteBoard-Mac */,
+				9ACC46B621C15683007F45FE /* KTPasteBoard-MacTests */,
+				9ACC46C121C15683007F45FE /* KTPasteBoard-MacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,6 +548,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46A421C15681007F45FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACC46AD21C15683007F45FE /* Assets.xcassets in Resources */,
+				9ACC46B021C15683007F45FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46B521C15683007F45FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46C021C15683007F45FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF059AF21BFA3EF00344218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF059C221BFA44400344218 /* Assets.xcassets in Resources */,
+				9AF059B821BFA3EF00344218 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +614,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9ACC46A221C15681007F45FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACC46D621C15A5D007F45FE /* KVCloud.swift in Sources */,
+				9ACC46DA21C1EFFF007F45FE /* Cloud.swift in Sources */,
+				9ACC46AB21C15682007F45FE /* ViewController.swift in Sources */,
+				9ACC46A921C15682007F45FE /* AppDelegate.swift in Sources */,
+				9ACC46D721C15A6E007F45FE /* Define.swift in Sources */,
+				9ACC46D521C156A1007F45FE /* KeyboardObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46B321C15683007F45FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACC46BC21C15683007F45FE /* KTPasteBoard_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACC46BE21C15683007F45FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACC46C721C15683007F45FE /* KTPasteBoard_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF059AD21BFA3EF00344218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A21888021C1136800C292F3 /* KVCloud.swift in Sources */,
+				9ACC46D921C1EFFD007F45FE /* Cloud.swift in Sources */,
+				9A21888121C1136C00C292F3 /* Define.swift in Sources */,
+				9AF059B521BFA3EF00344218 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -323,6 +666,21 @@
 			isa = PBXTargetDependency;
 			target = 9A8E7F9C21880FF100E24441 /* KTCloud */;
 			targetProxy = 9A8E7FBD21880FF200E24441 /* PBXContainerItemProxy */;
+		};
+		9ACC46B921C15683007F45FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACC46A521C15681007F45FE /* KTPasteBoard-Mac */;
+			targetProxy = 9ACC46B821C15683007F45FE /* PBXContainerItemProxy */;
+		};
+		9ACC46C421C15683007F45FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACC46A521C15681007F45FE /* KTPasteBoard-Mac */;
+			targetProxy = 9ACC46C321C15683007F45FE /* PBXContainerItemProxy */;
+		};
+		9AF059BB21BFA3EF00344218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF059B021BFA3EF00344218 /* KTPasteBoard */;
+			targetProxy = 9AF059BA21BFA3EF00344218 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -341,6 +699,22 @@
 				9A8E7FAA21880FF200E24441 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9ACC46AE21C15683007F45FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACC46AF21C15683007F45FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF059B621BFA3EF00344218 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF059B721BFA3EF00344218 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -465,6 +839,7 @@
 		9A8E7FC621880FF200E24441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KTCloud/KTCloud.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +859,7 @@
 		9A8E7FC721880FF200E24441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KTCloud/KTCloud.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +958,191 @@
 			};
 			name = Release;
 		};
+		9ACC46CA21C15683007F45FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "KTPasteBoard-Mac/KTPasteBoard_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "KTPasteBoard-Mac/KTPasteBoard-Mac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9ACC46CB21C15683007F45FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "KTPasteBoard-Mac/KTPasteBoard_Mac.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "KTPasteBoard-Mac/KTPasteBoard-Mac-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		9ACC46CD21C15683007F45FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTPasteBoard-Mac.app/Contents/MacOS/KTPasteBoard-Mac";
+			};
+			name = Debug;
+		};
+		9ACC46CE21C15683007F45FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTPasteBoard-Mac.app/Contents/MacOS/KTPasteBoard-Mac";
+			};
+			name = Release;
+		};
+		9ACC46D021C15683007F45FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "KTPasteBoard-Mac";
+			};
+			name = Debug;
+		};
+		9ACC46D121C15683007F45FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = "KTPasteBoard-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karim.KTPasteBoard-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "KTPasteBoard-Mac";
+			};
+			name = Release;
+		};
+		9AF059BE21BFA3EF00344218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KTPasteBoard/KTPasteBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = KTPasteBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.KTCloud.KTPasteBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF059BF21BFA3EF00344218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KTPasteBoard/KTPasteBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = KTPasteBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.KTCloud.KTPasteBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,6 +1178,42 @@
 			buildConfigurations = (
 				9A8E7FCC21880FF200E24441 /* Debug */,
 				9A8E7FCD21880FF200E24441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACC46C921C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACC46CA21C15683007F45FE /* Debug */,
+				9ACC46CB21C15683007F45FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACC46CC21C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACC46CD21C15683007F45FE /* Debug */,
+				9ACC46CE21C15683007F45FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACC46CF21C15683007F45FE /* Build configuration list for PBXNativeTarget "KTPasteBoard-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACC46D021C15683007F45FE /* Debug */,
+				9ACC46D121C15683007F45FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF059BD21BFA3EF00344218 /* Build configuration list for PBXNativeTarget "KTPasteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF059BE21BFA3EF00344218 /* Debug */,
+				9AF059BF21BFA3EF00344218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

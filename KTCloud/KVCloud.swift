@@ -9,13 +9,16 @@
 import Foundation
 import CloudKit
 struct KVCloud {
-    let publicDatabase = CKContainer.default().publicCloudDatabase
+    let container: CKContainer
     let recordType : String
-    init(recordType:String) {
+    init(container: CKContainer?=nil, recordType: String) {
+        self.container = container ?? CKContainer.default()
         self.recordType = recordType
     }
     
-    func upsert(key:String,value:Any? , completionHandler:@escaping ((_ record:CKRecord?,_ error:Error?)->())) {
+    func upsert(key:String,
+                value:Any? ,
+                completionHandler:@escaping ((_ record:CKRecord?,_ error:Error?)->())) {
         
         select { (record, error) in
             if let error = error {
@@ -27,8 +30,8 @@ struct KVCloud {
             guard let record = record else {
                 let newRecord = CKRecord(recordType: self.recordType)
                 newRecord.setValue(value, forKey: key)
-                self.publicDatabase.save(newRecord, completionHandler: completionHandler)
-                self.publicDatabase.save(newRecord) { (record, error) in
+                self.container.publicCloudDatabase.save(newRecord, completionHandler: completionHandler)
+                self.container.publicCloudDatabase.save(newRecord) { (record, error) in
                     if let error = error {
                         debugPrintLog(error)
                     }
@@ -37,16 +40,16 @@ struct KVCloud {
                 return
             }
             record.setValue(value, forKey: key)
-            self.publicDatabase.save(record, completionHandler: completionHandler)
+            self.container.publicCloudDatabase.save(record, completionHandler: completionHandler)
         }
         
         
     }
     
-    func select(_ completionHandler:((_ record:CKRecord?,_ error:Error?)->())?=nil) {
+    func select(_ completionHandler: ((_ record:CKRecord?,_ error:Error?)->())?=nil) {
         let predicate = NSPredicate(value: true)
         let query = CKQuery(recordType: recordType, predicate: predicate)
-        publicDatabase.perform(query, inZoneWith: nil, completionHandler: {
+        container.publicCloudDatabase.perform(query, inZoneWith: nil, completionHandler: {
             (results, error) -> Void in
             debugPrintLog(results?.count)
             assert((results?.count ?? 0)<=1)

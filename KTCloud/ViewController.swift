@@ -13,12 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        cloud.upsert(key: "test2", value: "testzaaa") { (_, _) in
-            self.cloud.object(for: "test2") { (value) in
-                print(value)
-            }
-        }
         
     }
 
