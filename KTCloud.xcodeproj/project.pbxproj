@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7D79876C9CB4C64C14D8C3 /* Pods_KTCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6F34D33B6FC02541D59B98 /* Pods_KTCloud.framework */; };
+		4D6C359017E0362FB59E61CB /* Pods_KTCloud_KTPasteBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B3B79FA3F2387E9F928C11 /* Pods_KTCloud_KTPasteBoard.framework */; };
+		9A05D75F21C7417F00CD7EEE /* PasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D75E21C7417F00CD7EEE /* PasteButton.swift */; };
 		9A21888021C1136800C292F3 /* KVCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E8013218837ED00E24441 /* KVCloud.swift */; };
 		9A21888121C1136C00C292F3 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E80112188338700E24441 /* Define.swift */; };
 		9A8E7FA121880FF100E24441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E7FA021880FF100E24441 /* AppDelegate.swift */; };
@@ -93,6 +96,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		453E210D7C91A220321E8BFF /* Pods-KTCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTCloud/Pods-KTCloud.release.xcconfig"; sourceTree = "<group>"; };
+		548AEA1FFB4EA28A30EC432B /* Pods-KTCloud-KTPasteBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCloud-KTPasteBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTCloud-KTPasteBoard/Pods-KTCloud-KTPasteBoard.release.xcconfig"; sourceTree = "<group>"; };
+		74B3B79FA3F2387E9F928C11 /* Pods_KTCloud_KTPasteBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTCloud_KTPasteBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A05D75E21C7417F00CD7EEE /* PasteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButton.swift; sourceTree = "<group>"; };
+		9A069CEC75C85D86425063F1 /* Pods-KTCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTCloud/Pods-KTCloud.debug.xcconfig"; sourceTree = "<group>"; };
 		9A8E7F9D21880FF100E24441 /* KTCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8E7FA021880FF100E24441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A8E7FA221880FF100E24441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +142,8 @@
 		9AF059B721BFA3EF00344218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		9AF059B921BFA3EF00344218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF059C021BFA3FE00344218 /* KTPasteBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KTPasteBoard.entitlements; sourceTree = "<group>"; };
+		F633E01116708A421C7C4C6A /* Pods-KTCloud-KTPasteBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCloud-KTPasteBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTCloud-KTPasteBoard/Pods-KTCloud-KTPasteBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6F34D33B6FC02541D59B98 /* Pods_KTCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8E800E2188115D00E24441 /* CloudKit.framework in Frameworks */,
+				1B7D79876C9CB4C64C14D8C3 /* Pods_KTCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,12 +198,24 @@
 			files = (
 				9AF059B221BFA3EF00344218 /* NotificationCenter.framework in Frameworks */,
 				9AF059C121BFA40100344218 /* CloudKit.framework in Frameworks */,
+				4D6C359017E0362FB59E61CB /* Pods_KTCloud_KTPasteBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8643E58C324BB25CF61AE766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A069CEC75C85D86425063F1 /* Pods-KTCloud.debug.xcconfig */,
+				453E210D7C91A220321E8BFF /* Pods-KTCloud.release.xcconfig */,
+				F633E01116708A421C7C4C6A /* Pods-KTCloud-KTPasteBoard.debug.xcconfig */,
+				548AEA1FFB4EA28A30EC432B /* Pods-KTCloud-KTPasteBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A8E7F9421880FF100E24441 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +228,7 @@
 				9ACC46C521C15683007F45FE /* KTPasteBoard-MacUITests */,
 				9A8E7F9E21880FF100E24441 /* Products */,
 				9A8E800C2188115C00E24441 /* Frameworks */,
+				8643E58C324BB25CF61AE766 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,6 +287,8 @@
 				9ACC45A721C14597007F45FE /* CloudKit.framework */,
 				9A8E800D2188115D00E24441 /* CloudKit.framework */,
 				9AF0599A21BFA33300344218 /* NotificationCenter.framework */,
+				FB6F34D33B6FC02541D59B98 /* Pods_KTCloud.framework */,
+				74B3B79FA3F2387E9F928C11 /* Pods_KTCloud_KTPasteBoard.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -306,6 +332,7 @@
 			children = (
 				9AF059C021BFA3FE00344218 /* KTPasteBoard.entitlements */,
 				9AF059B421BFA3EF00344218 /* TodayViewController.swift */,
+				9A05D75E21C7417F00CD7EEE /* PasteButton.swift */,
 				9AF059B621BFA3EF00344218 /* MainInterface.storyboard */,
 				9AF059B921BFA3EF00344218 /* Info.plist */,
 			);
@@ -319,10 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A8E7FC521880FF200E24441 /* Build configuration list for PBXNativeTarget "KTCloud" */;
 			buildPhases = (
+				6ADBB76BCF2334A7BB81D218 /* [CP] Check Pods Manifest.lock */,
 				9A8E7F9921880FF100E24441 /* Sources */,
 				9A8E7F9A21880FF100E24441 /* Frameworks */,
 				9A8E7F9B21880FF100E24441 /* Resources */,
 				9AF059AA21BFA33300344218 /* Embed App Extensions */,
+				29D7A7F1DBB968DBEC7BC33A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +456,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF059BD21BFA3EF00344218 /* Build configuration list for PBXNativeTarget "KTPasteBoard" */;
 			buildPhases = (
+				E207AA7041AA40DFCEEFCC6D /* [CP] Check Pods Manifest.lock */,
 				9AF059AD21BFA3EF00344218 /* Sources */,
 				9AF059AE21BFA3EF00344218 /* Frameworks */,
 				9AF059AF21BFA3EF00344218 /* Resources */,
@@ -585,6 +615,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D7A7F1DBB968DBEC7BC33A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KTCloud/Pods-KTCloud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTCloud/Pods-KTCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ADBB76BCF2334A7BB81D218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E207AA7041AA40DFCEEFCC6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTCloud-KTPasteBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A8E7F9921880FF100E24441 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -651,6 +750,7 @@
 				9ACC46D921C1EFFD007F45FE /* Cloud.swift in Sources */,
 				9A21888121C1136C00C292F3 /* Define.swift in Sources */,
 				9AF059B521BFA3EF00344218 /* TodayViewController.swift in Sources */,
+				9A05D75F21C7417F00CD7EEE /* PasteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,6 +938,7 @@
 		};
 		9A8E7FC621880FF200E24441 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A069CEC75C85D86425063F1 /* Pods-KTCloud.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -858,6 +959,7 @@
 		};
 		9A8E7FC721880FF200E24441 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453E210D7C91A220321E8BFF /* Pods-KTCloud.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1103,6 +1205,7 @@
 		};
 		9AF059BE21BFA3EF00344218 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F633E01116708A421C7C4C6A /* Pods-KTCloud-KTPasteBoard.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = KTPasteBoard/KTPasteBoard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1124,6 +1227,7 @@
 		};
 		9AF059BF21BFA3EF00344218 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548AEA1FFB4EA28A30EC432B /* Pods-KTCloud-KTPasteBoard.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = KTPasteBoard/KTPasteBoard.entitlements;
 				CODE_SIGN_STYLE = Automatic;

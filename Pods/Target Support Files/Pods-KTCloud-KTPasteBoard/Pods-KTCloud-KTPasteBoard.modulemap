@@ -1,0 +1,6 @@
+framework module Pods_KTCloud_KTPasteBoard {
+  umbrella header "Pods-KTCloud-KTPasteBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

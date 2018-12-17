@@ -17,39 +17,6 @@
                     <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEd-el-lyK">
-                                <rect key="frame" x="10" y="-3.5" width="140" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="MYf-Yh-hBw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
-                                <state key="normal" title="同步" backgroundImage="widget_button_bg">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="syncAction:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="1iw-7H-9tC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grH-qT-i21">
-                                <rect key="frame" x="170" y="-3.5" width="140" height="44"/>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="15"/>
-                                <state key="normal" title="拉取" backgroundImage="widget_button_bg">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="pullAction:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="tmK-DU-pVe"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="grH-qT-i21" firstAttribute="width" secondItem="S3S-Oj-5AN" secondAttribute="width" multiplier="0.5" constant="-20" id="3Ei-7j-Jup"/>
-                            <constraint firstItem="grH-qT-i21" firstAttribute="centerY" secondItem="ssy-KU-ocm" secondAttribute="centerY" id="9Sl-nJ-hP3"/>
-                            <constraint firstItem="nEd-el-lyK" firstAttribute="centerY" secondItem="ssy-KU-ocm" secondAttribute="centerY" id="Ckl-Zz-3LT"/>
-                            <constraint firstItem="nEd-el-lyK" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="10" id="SCs-54-FKM"/>
-                            <constraint firstItem="nEd-el-lyK" firstAttribute="width" secondItem="S3S-Oj-5AN" secondAttribute="width" multiplier="0.5" constant="-20" id="cY5-MR-J5f"/>
-                            <constraint firstAttribute="trailing" secondItem="grH-qT-i21" secondAttribute="trailing" constant="10" id="x5O-mt-2OT"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -61,7 +28,4 @@
             <point key="canvasLocation" x="52.799999999999997" y="26.53673163418291"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="widget_button_bg" width="149" height="44"/>
-    </resources>
 </document>
