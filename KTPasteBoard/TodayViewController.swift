@@ -15,14 +15,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     lazy var syncButton: PasteButton = {
         var syncButton = PasteButton()
-        syncButton.titleLabel.text = "同步"
+        syncButton.titleLabel.text = "Push"
         syncButton.addTarget(self, action: #selector(syncAction(_:)), for: .touchUpInside)
         return syncButton
     }()
     
     lazy var pullButton: PasteButton = {
         var pullButton = PasteButton()
-        pullButton.titleLabel.text = "拉取"
+        pullButton.titleLabel.text = "Pull"
         pullButton.addTarget(self, action: #selector(pullAction(_:)), for: .touchUpInside)
         return pullButton
     }()
